@@ -30,8 +30,7 @@ function Home() {
         <h1>Alinhamentos Múltiplos de Sequência</h1>
         <p className="lede">
           Ferramenta para alinhar sequências biológicas, comparando bases par a par com o
-          algoritmo de Needleman-Wunsch ou processando múltiplas sequências a partir de texto
-          bruto, com o backend hospedado em Render.
+          algoritmo de Needleman-Wunsch ou processando múltiplas sequências.
         </p>
 
         <div className="hero-actions">
