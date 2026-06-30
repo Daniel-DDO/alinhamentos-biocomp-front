@@ -55,8 +55,8 @@ function Home() {
           <span className="num">01 — alinhamento par a par</span>
           <h2>Needleman-Wunsch</h2>
           <p>
-            Informe duas sequências (id, fasta e conteúdo) e receba o alinhamento ótimo global,
-            com pontuação e bases pareadas destacadas.
+            Informe duas sequências (id, fasta e conteúdo) para calcular o
+            alinhamento global ótimo, com a pontuação e as bases pareadas destacadas.
           </p>
           <span className="go">Abrir ferramenta →</span>
         </Link>
@@ -65,8 +65,8 @@ function Home() {
           <span className="num">02 — alinhamento múltiplo</span>
           <h2>MSA por texto</h2>
           <p>
-            Cole um bloco de texto com várias sequências e envie diretamente para o endpoint
-            de alinhamento múltiplo do backend.
+            Coloque várias sequências em formato FASTA e visualize o alinhamento
+            múltiplo resultante, com as posições conservadas destacadas.
           </p>
           <span className="go">Abrir ferramenta →</span>
         </Link>
