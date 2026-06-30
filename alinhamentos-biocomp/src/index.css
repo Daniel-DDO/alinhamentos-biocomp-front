@@ -1,0 +1,107 @@
+:root {
+  --bg: #050907;
+  --bg-panel: #0a120d;
+  --surface: #0d1712;
+  --surface-2: #11201a;
+  --border: #1c2e24;
+  --border-soft: #16241c;
+
+  --accent: #00ff66;
+  --accent-2: #34d399;
+  --accent-dim: rgba(0, 255, 102, 0.08);
+  --accent-border: rgba(0, 255, 102, 0.32);
+
+  --text: #cfe8da;
+  --text-h: #eafff2;
+  --text-muted: #6b8f7a;
+
+  --danger: #ff5c5c;
+  --danger-dim: rgba(255, 92, 92, 0.08);
+
+  --mono: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace;
+
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--text-h);
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 19px;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+code.mono,
+.mono {
+  font-family: var(--mono);
+}
+
+code.mono {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 12.5px;
+  color: var(--accent-2);
+}
+
+::selection {
+  background: var(--accent-dim);
+  color: var(--accent-2);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-2);
+}
