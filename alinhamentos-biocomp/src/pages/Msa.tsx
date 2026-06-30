@@ -95,7 +95,7 @@ function Msa() {
 
         {loading && (
           <div className="status loading">
-            <span className="dot" /> aguardando resposta do backend (pode levar alguns segundos)
+            <span className="dot" /> aguardando resposta do servidor
           </div>
         )}
         {error && <div className="error-box">{error}</div>}

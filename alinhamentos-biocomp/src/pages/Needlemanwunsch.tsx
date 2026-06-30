@@ -152,7 +152,7 @@ function NeedlemanWunsch() {
 
         {loading && (
           <div className="status loading">
-            <span className="dot" /> aguardando resposta do backend (pode levar alguns segundos no Render)
+            <span className="dot" /> aguardando resposta do servidor
           </div>
         )}
         {error && <div className="error-box">{error}</div>}
