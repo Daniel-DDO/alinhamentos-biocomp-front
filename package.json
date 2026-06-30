@@ -15,8 +15,8 @@
     "lucide-react": "^1.22.0"
   },
   "devDependencies": {
-    "vite": "^7.x",
-    "@vitejs/plugin-react": "^5.x",
-    "typescript": "^5.x"
+  "@vitejs/plugin-react": "^5.0.2",
+  "typescript": "^5.9.2",
+  "vite": "^7.1.0"
   }
 }
