@@ -1,2 +1,5 @@
-# alinhamentos-biocomp-front
-Segundo projeto da disciplina Biologia Computacional em 2026.1
+# Alinhamentos Múltiplos de Sequências
+
+## Alunos:
+- Daniel Dionísio de Oliveira
+- Pedro Henrique Apolinário da Silva
